@@ -1,0 +1,24 @@
+body {
+   background-color: rgb(33, 93, 162);
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 1000px;
+   margin: 0 auto;
+   align-items: center;
+}
+
+.iputs {
+   display: grid;
+   grid-template-columns: repeat(2, 200px);
+   gap: 5px;
+   height: 100px;
+}
+
+select,
+input {
+   border-radius: 7px;
+   border: none;
+}
